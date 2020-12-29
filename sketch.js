@@ -1,10 +1,10 @@
 function setup() {
-  createCanvas(400,500);
+  createCanvas(windowWidth,windowHeight);
   angleMode (DEGREES) ; 
 }
 function draw() {
   background(0);
-  translate(200,250);
+  translate(width/2, height/2);
   rotate(-90);
 
   let hr = hour();
